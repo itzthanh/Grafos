@@ -1,2 +1,2 @@
-<?php $this_page = "home.php";
+<?php $this_page = "index.php";
 include "template.php"; ?>

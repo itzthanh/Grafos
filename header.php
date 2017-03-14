@@ -1,0 +1,10 @@
+  <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
+    <a class="brand w-nav-brand" href="#"><img class="logoimage" sizes="(max-width: 479px) 90vw, 422px" src="images/Logo.png" srcset="images/Logo-p-500x84.png 500w, images/Logo-p-800x134.png 800w, images/Logo.png 986w" width="422">
+    </a>
+    <nav class="navmenu w-nav-menu" role="navigation"><a class="navlink w-nav-link" href="home.php">Home</a><a class="navlink w-nav-link" href="form_home.php">FORM</a><a class="navlink w-nav-link" href="contact.php">Contact</a><a class="navlink w-nav-link" href="contact.php">About</a>
+    </nav>
+    <div class="menubutton w-nav-button">
+      <div class="icon w-icon-nav-menu"></div>
+    </div>
+  </div>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->

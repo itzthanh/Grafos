@@ -3,9 +3,7 @@
       <div class="rightcol w-col w-col-6 w-col-stack">
         <div class="columnstyle" valign="vertical-align:top">
           <h2 class="aboutheading contactheading">About</h2>
-          <p class="aboutparagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
-            <br>
-            <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+          <p class="aboutparagraph">Graphos is a web application created for behavioral therapists and counselors to track their client data. The electronic recording of data can be used to prevent double entry and this web application can be accessed anytime without a need for creating an account to use the services and without the website storing user data. The website serves as a data tracking template readily available online for therapists can use on the go without having to deal with paper copies or complex data management systems. The minimum viable product has a form-like interface and is used to record pass/fails for trials for multiple programs. Once the data has been entered, it can then be exported as a PDF.</p>
         </div>
       </div>
       <div class="rightcol w-col w-col-6 w-col-stack">

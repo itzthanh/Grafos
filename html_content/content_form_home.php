@@ -5,7 +5,6 @@
     <input class="clientNameInput textfield w-input" data-name="Name 2" id="name-2" maxlength="256" name="name" placeholder="Enter client name" type="text">
     <div class="goalwrapper">
       <div class="goalformwrapper w-form">
-        
           <h1 class="formtitle">Enter Goals</h1>
           <label class="goalfieldlabel" for="Goal-Name">Goal Name:</label>
           <input class="goaltextfield textfield w-input" data-name="Goal Name" id="Goal-Name" maxlength="256" name="Goal-Name[]" placeholder="Enter Goal Name" required="required" type="text">

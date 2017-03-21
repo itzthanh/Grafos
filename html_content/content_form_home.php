@@ -1,6 +1,8 @@
   <?php session_start() ?>
   <div class="formcontainer w-container">
   <form class="formbody w-clearfix" data-name="Email Form" data-redirect="/form-data" id="email-form" method="post" name="email-form" value="goal_name" redirect="form-data.php" action="form_data.php">
+    <label class="dateLabel" for="name-2">Date:</label>
+    <input class="dateInput textfield w-input" data-name="Date" id="name-2" maxlength="256" name="date" placeholder="MM/DD/YYYY" type="text">
     <label class="clientNameLabel goalfieldlabel" for="name-2">Name:</label>
     <input class="clientNameInput textfield w-input" data-name="Name 2" id="name-2" maxlength="256" name="name" placeholder="Enter client name" type="text">
     <div class="goalwrapper">

@@ -12,15 +12,13 @@
           $counter=0;
           $goals = array_combine($_POST["Goal-Name"], $_POST["Goal-Description"]);
           foreach ($goals as $k => $v){
-            echo "<div class=\"goals\" id=\"goals" . $counter . "\"" . ">" . "Goal: " . $k . "<br>" . "Description: " . $v . "<br>" . "</div>";
+            echo "<div class=\"goals\" id=\"goals" . $counter . "\"" . ">" . "Date: " . $_POST["date"] . "<br>" . "Goal: " . $k . "<br>" . "Description: " . $v . "<br>" . "</div>";
             $counter++;
           }
           ?>
         </div>
-        <button class="dataformbuttton" type="button" style="color:white">Export</button>
+        <button class="dataformbuttton" id="exportButton" type="button" style="color:white">Export</button>
         <!--<input class="dataformbuttton w-button" data-wait="Please wait..." type="submit" value="Export">-->
-
- <a href="http://pdf-ace.com/pdfme?url=https://grafos134.herokuapp.com/form_data.php" target="_blank">Save as PDF</a>
       </form>
       <!--<div class="w-form-done">
         <div>Thank you! Your submission has been received!</div>

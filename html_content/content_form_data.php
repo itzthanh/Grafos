@@ -19,7 +19,7 @@
         </div>
         <button class="dataformbuttton" type="button" style="color:white">Export</button>
         <!--<input class="dataformbuttton w-button" data-wait="Please wait..." type="submit" value="Export">-->
-        <a href="http://www.web2pdfconvert.com/convert">Save to PDF</a>
+
 
       </form>
       <!--<div class="w-form-done">
@@ -29,4 +29,5 @@
         <div>Oops! Something went wrong while submitting the form</div>
       </div>-->
     </div>
+    <a href="http://www.web2pdfconvert.com/convert">Save to PDF</a>
   </div>

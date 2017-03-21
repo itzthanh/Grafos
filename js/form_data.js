@@ -15,16 +15,20 @@ $(document).ready(function(){
 		var $score = goalScoreArray[$(this).parents(".goals").attr("id").split("s")[1]];
 		if ($(this).hasClass("clicked")){
 			goalScoreArray[$(this).parents(".goals").attr("id").split("s")[1]] = ++$score;
-			
 		} 
 		else if (!($(this).hasClass("clicked")) && $score > 0){
 			goalScoreArray[$(this).parents(".goals").attr("id").split("s")[1]] = --$score;
 		}
 		for (var i=0; i<$currentGoalCounter; i++){
-			console.log($("#goalScore" + (i + 1)));
 			$("#goalScore" + (i + 1)).val(goalScoreArray[i].toString());
 		}
 	});
+
+	$("#exportButton").click(function(){
+		(window).print();
+	});
+
+
 
 });
 

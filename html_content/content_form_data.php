@@ -20,7 +20,7 @@
         <button class="dataformbuttton" type="button" style="color:white">Export</button>
         <!--<input class="dataformbuttton w-button" data-wait="Please wait..." type="submit" value="Export">-->
 
-
+ <a href="http://pdf-ace.com/pdfme?url=https://grafos134.herokuapp.com/form_data.php" target="_blank">Save as PDF</a>
       </form>
       <!--<div class="w-form-done">
         <div>Thank you! Your submission has been received!</div>
@@ -30,9 +30,3 @@
       </div>-->
     </div>
   </div>
-  <script type="text/javascript">
-var
-pdfbuttonlabel="Save page as PDF"
-</script>
-<script src="http://www.web2pdfconvert.com/pdfbutton2.js" id="Web2PDF" type="text/javascript"></script>
-<!-- Web2PDF Converter Button END -->

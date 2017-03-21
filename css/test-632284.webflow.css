@@ -603,7 +603,7 @@ body {
 }
 
 .formbody {
-  width: 80%;
+  width: 85%;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -662,8 +662,11 @@ body {
   margin-top: 2%;
 }
 
+.dateLabel{
+    margin-top: 40px;
+}
+
 .clientNameLabel{
-  margin-top: 20px;
   margin-bottom: 15px;
   font-size: 35px !important;
   font-family: 'Droid Sans', sans-serif;
@@ -671,7 +674,7 @@ body {
   font-weight: 400;
 }
 
-.clientNameInput{
+.clientNameInput, .dateInput{
   width:50%;
   margin-left:0;
 }
@@ -718,12 +721,12 @@ body {
   text-transform: uppercase;
 }
 
-.formtitle {
+.formtitle, .dateLabel {
   font-size: 35px;
   font-family: 'Droid Sans', sans-serif;
   color: #333;
   font-weight: 400;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .selectfield {
@@ -863,7 +866,7 @@ body {
   }
   .textfield {
     width: 96%;
-    margin-left: 2%;
+    /*margin-left: 2%;*/
   }
   .textfield.commentbox {
     width: 96%;

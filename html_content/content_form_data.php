@@ -29,5 +29,10 @@
         <div>Oops! Something went wrong while submitting the form</div>
       </div>-->
     </div>
-    <a href="http://www.web2pdfconvert.com/convert">Save to PDF</a>
   </div>
+  <script type="text/javascript">
+var
+pdfbuttonlabel="Save page as PDF"
+</script>
+<script src="http://www.web2pdfconvert.com/pdfbutton2.js" id="Web2PDF" type="text/javascript"></script>
+<!-- Web2PDF Converter Button END -->
